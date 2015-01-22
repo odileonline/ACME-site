@@ -1,0 +1,86 @@
+/* Makeshift CSS Reset */
+{
+    margin: 0;
+    padding: 0;
+}
+ 
+header, footer, aside, nav, article {
+    display: block;
+}
+
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 44px;
+    padding: 22px 0;
+    color: #7F7F80;
+}
+
+p {
+    color: #7F7F80;
+}
+
+.container {
+    width: 960px;
+    margin: 50px;
+}
+
+.header {
+    top:0;
+
+}
+
+.logo {
+    float: left;
+    padding-right: 55px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: helvetica;
+    font-weight: strong;
+    color: #838E95;
+    
+    
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin-left: 55px;
+    color: ##838E95;
+    padding-top: 25px;
+
+}
+
+.nav {
+    float: center;
+
+}
+
+#content {
+    display: table;
+    padding-top: 5px;
+}
+
+#colum1 {
+        display: table-cell;
+        width: 360px;
+        padding-right: 22px;
+    }
+
+#colum2 {
+        display: table-cell;
+        width: 360px;
+        padding-left: 22px;
+    }
+
+img {
+    padding-top: 15px;
+}
